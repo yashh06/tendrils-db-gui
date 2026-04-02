@@ -97,7 +97,7 @@ const App = () => {
 
   return (
     <QueryClientProvider client={queryClient}>
-      <BrowserRouter basename="/NewDBGui">
+      <BrowserRouter basename="/tendrils-db-gui">
         <Routes>
           <Route path="/login" element={<LoginRoute />} />
           <Route
